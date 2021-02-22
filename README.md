@@ -10,7 +10,7 @@
 <details>
 <summary>View contents</summary>
 
-* [`脑图`](https://github.com/pigPEQ/constant-study/tree/master/doc/%E8%84%91%E5%9B%BE)
+* [`脑图`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps)
 
 </details>
 
