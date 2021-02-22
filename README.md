@@ -1,9 +1,9 @@
 ![](girl.jpg)
     
 ### Awesome python
->	python的学习笔记，将学习成果持续可视化输出，学习资源为[Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+>	python的学习笔记，将学习成果持续可视化输出.
 
-### contents
+
 
 #### 📚 专题笔记归类及脑图
 
