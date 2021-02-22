@@ -1,4 +1,4 @@
-[![index](imgs/index.jpg)](https://github.com/pigPEQ/Constant-Study)
+[![index](girl.jpg)](https://github.com/pigPEQ/Awesome python)
     
 ### Awesome python
 >	python的学习笔记，将学习成果持续可视化输出，学习资源为[Python-100-Days](https://github.com/jackfrued/Python-100-Days)
