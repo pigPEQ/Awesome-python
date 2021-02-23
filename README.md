@@ -1,4 +1,4 @@
-![](girl.jpg)
+![](girl.jpg )
     
 ### Awesome python
 >	python的学习笔记，将学习成果持续可视化输出.
