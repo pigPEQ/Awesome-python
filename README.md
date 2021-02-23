@@ -1,25 +1,24 @@
-![](girl.jpg )
+![](girl.jpg)
     
-### Awesome python
+### 💎Awesome python💎
 >	python的学习笔记，将学习成果持续可视化输出.
 
-
 <details>
-<summary>📚　专题笔记归类及脑图</summary>
+<summary>📌　专题笔记归类及脑图</summary>
 
 * [`脑图`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps)
 
 </details>
 
 <details>
-<summary>🔌　已完成的项目</summary>
+<summary>🔑　已完成的项目</summary>
 
 * [`test`](#attempt)
 
 </details>
 
 <details>
-<summary>:gift_heart:　正在学习</summary>
+<summary>🎧　正在学习</summary>
 
 * [`test`](#attempt)
 
