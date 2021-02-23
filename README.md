@@ -19,14 +19,14 @@
 </details>
 
 <details>
-<summary>:gift_heart: 　正在学习</summary>
+<summary>:gift_heart:　正在学习</summary>
 
 * [`test`](#attempt)
 
 </details>
 
 <details>
-<summary>:school_satchel: 　收藏的文章</summary>
+<summary>:school_satchel:　收藏的文章</summary>
 
 * [`VSCode必备插件`](https://juejin.im/post/5db66672f265da4d0e009aad)
 * [`git的奇技淫巧`](https://github.com/521xueweihan/git-tips)
@@ -35,9 +35,10 @@
 </details>
 
 <details>
-<summary>:sparkler: 　有趣的开源项目</summary>
+<summary>:sparkler:　有趣的开源项目</summary>
 
 * [`LeetCode`](https://github.com/LiangJunrong/document-library/tree/master/other-library/LeetCode#chapter-one)
 * [`30-seconds-of-code`](https://github.com/pigPEQ/30-seconds-of-code)
+* [`capXDR-plugins`](https://github.com/lihaoyun6/capXDR-plugins)
 
 </details>
