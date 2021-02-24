@@ -1,5 +1,5 @@
 <details>
-<summary>📚  python语言基础 脑图系列</summary>
+<summary>📚&nbsp;&nbsp;python语言基础 脑图系列</summary>
 </br>
 <details>
 <summary>语言元素</summary>
