@@ -1,4 +1,4 @@
-#### 📚  python语言基础 脑图系列
+### 📚  python语言基础 脑图系列
 
 <details>
 <summary>语言元素</summary>
@@ -21,6 +21,10 @@
 
 </details>
 
+
+<details>
+<summary>...</summary>
+  
 <details>
 <summary>函数和模块</summary>
 
@@ -91,6 +95,7 @@
 
 </details>
 
+</details>
 
 
 
