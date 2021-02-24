@@ -1,6 +1,6 @@
-| ### 📚  python语言基础 脑图系列     |
-| ---- |
-
+<details>
+<summary>### 📚  python语言基础 脑图系列</summary>
+     
 <details>
 <summary>语言元素</summary>
 
@@ -24,7 +24,7 @@
 
 
 <details>
-<summary>...</summary>
+<summary>...more</summary>
   
 <details>
 <summary>函数和模块</summary>
@@ -93,6 +93,8 @@
 <summary>序列化和反序列化</summary>
 
 ![](/doc/Mind%20maps/images/序列化和反序列化.png)
+
+</details>
 
 </details>
 
