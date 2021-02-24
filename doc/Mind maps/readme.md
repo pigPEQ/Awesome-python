@@ -24,8 +24,8 @@
 
 
 <details>
-<summary>...more</summary>
-  
+<summary>...</summary>
+</br>  
 <details>
 <summary>函数和模块</summary>
 
