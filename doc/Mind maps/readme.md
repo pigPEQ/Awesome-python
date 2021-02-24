@@ -1,6 +1,7 @@
-### 📚  python语言基础 脑图系列
+| ### 📚  python语言基础 脑图系列     |
+| ---- |
 
-<details>
+| <details>
 <summary>语言元素</summary>
 
 ![](/doc/Mind%20maps/images/python之语言元素.png)
@@ -95,7 +96,7 @@
 
 </details>
 
-</details>
+</details> |
 
 
 
