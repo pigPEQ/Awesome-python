@@ -1,6 +1,4 @@
-<h2><a href="https://github.com/pigPEQ/Re-Ask"><img src="Imgs/01.jpg" alt="扪心自问""></a></h2> 
-  
----
+
   
 #### 解析：[day 14](https://github.com/pigPEQ/Daily-3Questions/blob/master/14daily-q.md)
 - [*`HTML`*] `title`与`h1`、`b`与`strong`、`i`与`em`的区别
