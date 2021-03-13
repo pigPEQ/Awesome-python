@@ -1,7 +1,5 @@
-![](index.jpg)
-    
-### 💎Awesome python💎
->	python的学习笔记，将学习成果持续可视化输出.
+#### 💎Awesome python💎
+>	好记性不如烂笔头！
 
 <hr>
 
@@ -15,18 +13,10 @@
 </details>
 
 <details>
-<summary>🔑　已完成的项目</summary>
-</br>
-
-* [`test`](#attempt)
-
-</details>
-
-<details>
 <summary>🎧　正在学习</summary>
 </br>
 
-* [`test`](#attempt)
+* [`MySQL数据库`](#attempt)
 
 </details>
 
