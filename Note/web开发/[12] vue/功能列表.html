@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+        .table {
+            width: 800px;
+            margin: 20px auto;
+            border-collapse: collapse; /*这一行，不能少：表格的两边框合并为一条*/
+        }
+
+        .table th {
+            background: #0094ff;
+            color: white;
+            font-size: 16px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .table tr td {
+            text-align: center;
+            font-size: 16px;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        .table tr:hover{
+            background-color: hotpink;
+            transition: all 0.8s ease; }
+
+        .form {
+            width: 800px;
+            margin: 20px auto;
+        }
+
+        .form button {
+            margin-left: 10px;
+        }
+   
+    </style>
+<body>
+    <div id="app">
+        <div class="form">
+               编号：<input type="number" v-model="formData.id" style="border-radius: 5px" v-focus v-color>
+               名称: <input type="text" v-model="formData.name" style="border-radius: 5px"@keyup.enter="add" v-color>
+               <button v-on:click="add">添加</button>
+               <input type="text" v-model="key">
+        </div>
+        <table class="table">
+               <th>编号</th>
+               <th>名称</th>
+               <th>创建时间</th>
+               <th>操作</th>
+               <tr v-show="list.length == 0">
+                   <td colspan="4">无数据</td>
+               </tr>
+           
+               <tr v-for="(item,i) in search(key)" >
+                   <td @click="del(id)">{{item.id}}</td>
+                   <td @click="del(id)">{{item.name}}</td>
+                   <td @click="del(id)">{{item.cdate}}</td>
+                   <td ><a href="#" @click="del(id)">删除</a></td>
+               </tr>
+
+        </table>
+    </div>
+    <script src="../vue.js"></script>
+    <script>
+        Vue.directive('focus',{
+            bind:function(el){},
+            inserted:function(el){
+                el.focus()
+            },
+            updated:function(el){}
+        })
+        Vue.directive('color',{
+            bind:function(el){
+                el.style.color='blue';
+            },
+            inserted:function(el){
+            },
+            updated:function(el){}
+        })
+        var vm= new Vue({
+            el:'#app',
+            data:{
+                list: [{id:10,name:'zhangsan',cdate:new Date()},{id:11,name:'wangwu',cdate:new Date()}],
+                formData:{
+                    id:0,
+                    name:' '
+                },
+                key:""
+            },
+            methods: {
+                add(){
+                    var p={id:this.formData.id,name:this.formData.name,cdate:new Date()};
+                    this.list.push(p);
+
+                    this.formData.id=0;
+                    this.formData.name='';
+                },
+                del(id){
+                    if(!confirm("是否删除")){
+                        return;
+                    }
+                    var index=this.list.findIndex(function(item)
+                    {
+                        return item.id=id;
+                    }
+                    )
+                    this.list.splice(index,1);
+                    this.formData.id=0;
+                    this.formData.name='';
+                },
+               
+              search(key){
+                  var newList=this.list.filter(item=>{
+                      if(item.name.includes(key)){
+                            return item;
+                      }
+                  }
+                  )
+                  return newList;
+              }
+            }  
+            
+
+        }
+        );
+    </script>
+</body>
+</html>

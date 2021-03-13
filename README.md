@@ -9,6 +9,7 @@
 
 * [`python基础`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps/python%E5%9F%BA%E7%A1%80)
 * [`linux命令`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps/linux)
+* [`web开发`]()
 
 </details>
 

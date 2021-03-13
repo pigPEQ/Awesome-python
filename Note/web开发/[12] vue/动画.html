@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<!-- 1.使用过度类名实现动画
+     2.引入animate.css实现动画
+     3.使用钩子函数实现半场动画 -->
+<link rel="stylesheet" href="../animate.css">
+<style>
+    .ball{
+        width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color:blueviolet;
+    }
+    .my-enter,
+    .my-leave-to{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    .my-enter-active,
+    .my-leave-active{
+        transition: all 1s ease;
+    }
+</style>
+<script src="../vue.js"></script>
+<body>
+    <div id="app">
+        <transition name="my">
+            <h2 v-if="test1">helloWorld</h2>
+        </transition>
+        <input type="button" value="btn1" @click="test1=!test1">
+        <transition enter-active-class="animated bounceIn" leave-active-class="animated bounceOut">
+                <h1 v-if="test2">hello today</h1>
+            </transition>
+            <input type="button" value="btn2" @click="test2=!test2">
+                <input type="button" value="btn3" @click="test3=!test3">
+                <transition @before-enter="beforeEnter" @enter="enter" @leave="leave">
+                        <div class="ball" v-if="test3"></div>
+                        </transition>
+    </div>
+    <script>
+        var vm=new Vue({
+            el:'#app',
+            data:{
+                test1:false,
+                test2:false,
+                test3:false
+            },
+            methods:{
+                beforeEnter:function(el){
+                    el.style.transform='translate(300px,300px)';
+                },
+                enter:function(el,done){
+                    el.offsetWidth;
+                    el.style.transform='translate(700px,400px)';
+                    el.style.transition='all 2s ease';
+                    done();
+                },
+                leave:function(el){
+                    this.test3=!this.test3;
+                }
+            }
+        });
+    
+    </script>
+</body>
+</html>

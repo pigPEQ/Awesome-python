@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D图片轮播</title>
+</head>
+<link rel="stylesheet" type="text/css" href="normalize.css"/>
+<style>
+    .box{
+        width: 100%;
+        height: 340px;
+        margin-top: 150px;
+        position: relative;
+    }
+    .list{
+        width: 1200px;
+        height: 300px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        margin-left: -600px;
+    }
+    li{
+        position: absolute;
+        top: 0;
+        left: 0;
+        list-style: none;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+    }
+    .t1{
+        transform: translate3d(-224,0,0) scale(0.8);
+    }
+    .t2{
+        transform: translate3d(0,0,0) scale(0.8);
+        transform-origin:0 50%;
+		opacity: 0.8;
+		z-index: 2;
+        
+    }
+    .t3{
+        transform:translate3d(224px,0,0) scale(1);
+		z-index: 3;
+		opacity: 1;
+    }
+    .t4{
+        transform:translate3d(449px,0,0) scale(0.81);
+		transform-origin:100% 50%;
+		opacity: 0.8;
+		z-index: 2;
+    }
+    .t5{
+        transform:translate3d(672px,0,0) scale(0.81);
+    }
+    .t6{
+        transform:translate3d(896px,0,0) scale(0.81);
+    }
+    .t7{
+        transform:translate3d(1120px,0,0) scale(0.81);
+    }
+    img{
+        width: 751px;
+        height: 300px;
+        float: left;
+        border: none;
+    }
+    .btn{
+        position: absolute;
+        height: 100px;
+        width: 50px;
+        color: white;
+        background: rgba(0,255,0,.5);
+        top:50%;
+        margin-top:-50px;
+        line-height: 100px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .next{
+        right: 0;
+    }
+    .buttons{
+        position: absolute;
+        width: 1200px;
+        height: 30px;
+        left:50%;
+        margin-left: -600px;
+        bottom: 0;
+        text-align: center;
+    }
+    span{
+        display: inline-block;
+        width: 30px;
+        height: 1px;
+        background: coral;
+    }
+    .blue{
+        background: cornflowerblue;
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="list">
+            <ul>
+                <li class="t7"><a href="#"><img src="./img/1.png"></a></li>
+                <li class="t6"><a href="#"><img src="./img/2.png"></a></li>
+                <li class="t5"><a href="#"><img src="./img/3.png"></a></li>
+                <li class="t4"><a href="#"><img src="./img/44.jpg"></a></li>
+                <li class="t3"><a href="#"><img src="./img/55.jpg"></a></li>
+                <li class="t2"><a href="#"><img src="./img/66.jpg"></a></li>
+                <li class="t1"><a href="#"><img src="./img/77.jpg"></a></li>
+            </ul>
+        </div>
+
+        <a href="javascript:" class="prev btn"><</a>
+        <a href="javascript:" class="next btn">></a>
+
+        <div class="buttons">
+            <span class="blue"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/3Dchange.js"></script>
+</body>
+</html>
