@@ -7,8 +7,8 @@
 <summary>📌&nbsp;&nbsp;专题笔记归类及脑图</summary>
 </br>
 
-* [`python基础`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps/python%E5%9F%BA%E7%A1%80)
-* [`linux命令`](https://github.com/pigPEQ/Awesome-python/tree/main/doc/Mind%20maps/linux)
+* [`python基础`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/python%E5%9F%BA%E7%A1%80)
+* [`linux命令`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/linux%E5%91%BD%E4%BB%A4)
 
 </details>
 
