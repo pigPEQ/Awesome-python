@@ -17,7 +17,7 @@ npm run build
 npm run build --report
 ```
 ## *epubjs的核心工作原理*
-<img src="/Note/web开发/vue项目/电子阅读器/imgs/epubjs.png">
+<img src="/Note/web开发/[12] vue项目/电子阅读器/imgs/epubjs.png">
 
 ## *踩坑与小结*
 - 中途遇到了这样的报错`Module build failed: TypeError: this.getResolve is not a function at Object.loader`,这个错误的原因是安装的`sass-loader`的版本过高，导致编译失败，查了好久的错误，醉了这也可以，最后将8.0.0版本卸载了装了7.3.1版本就ok啦。
