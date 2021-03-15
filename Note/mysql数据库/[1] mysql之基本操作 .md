@@ -83,7 +83,7 @@ select * from 【table_name】
 select 【row】,【col】 from 【table_name】
 ```
 
-#### 
+
 
 #### 4.2 添加数据
 

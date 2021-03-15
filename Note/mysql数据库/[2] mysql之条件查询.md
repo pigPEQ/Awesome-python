@@ -55,10 +55,21 @@ select age,count(*) from teacher group by age having count(*)>n
 
 
 
-### 6.多表查询
+### 6.多表连接查询
 
 ```sql
-# table1 inner join table2
-select * from 【table_name1】t1 inner join 【table_name2】 t2 where 【t1.attr】=【t2.attr】
+# 6.1 内连接查询  inner join 
+select * from 【table_name1】t1 inner join 【table_name2】 t2 on 【t1.attr】=【t2.attr】
+
+# 6.2 左连接查询  left join 左表为主,查询不到填null
+select * from 【table_name1】 t1 left join 【table_name12】t2 on 【t1.attr】=【t2.attr】
+
+# 6.3 右连接查询 right join 右表为主
+select * from 【table_name1】 t1 right join 【table_name12】t2 on 【t1.attr】=【t2.attr】
+
+# 6.4 自连接查询 一张表模拟两张表
+select * from 【table_name1】t1 inner join 【table_name1】t2 on 【t1.attr】=【t2.attr】
 ```
+
+
 
