@@ -1,7 +1,4 @@
 #### 💎Awesome python💎
->	宝，忘了就DUO回来看看吧(^QAQ^)
-
-<hr>
 
 <details>
 <summary>🎧　正在学习</summary>
