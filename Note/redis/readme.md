@@ -1,4 +1,5 @@
-### 关键字![redis](/Note/redis/res/redis.png)
+### 关键字
+![redis](/Note/redis/res/redis.png)
 
 
 
@@ -18,6 +19,6 @@ client.set('name','zhangsan')
 
 ### redis优化
 
-1. 主从模式
-2. 服务器集群（cluster）多个节点，一主一从
+- 主从模式
+- 服务器集群（cluster）多个节点，一主一从
 
