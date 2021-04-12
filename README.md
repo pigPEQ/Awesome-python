@@ -6,7 +6,7 @@
 </details>
 
 <details>
-<summary>📌&nbsp;&nbsp;专题笔记归类及脑图</summary>
+<summary>📌&nbsp;&nbsp;    专题笔记归类及脑图</summary>
 </br>
 
 * [python](https://github.com/pigPEQ/Awesome-python/tree/main/Note/python%E5%9F%BA%E7%A1%80)
