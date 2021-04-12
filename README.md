@@ -3,9 +3,6 @@
 <details>
 <summary>🎧　正在学习</summary>
 </br>
-
-* [`MySQL数据库`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/mysql%E6%95%B0%E6%8D%AE%E5%BA%93)
-
 </details>
 
 <details>
@@ -15,6 +12,10 @@
 * [`python基础`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/python%E5%9F%BA%E7%A1%80)
 * [`linux命令`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/linux%E5%91%BD%E4%BB%A4)
 * [`web开发`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/web%E5%BC%80%E5%8F%91)
+* [`MySQL数据库`](https://github.com/pigPEQ/Awesome-python/tree/main/Note/mysql%E6%95%B0%E6%8D%AE%E5%BA%93)
+* [redis](#)
+* [Django](#)
+* [Git](#)
 
 </details>
 
