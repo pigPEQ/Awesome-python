@@ -6,5 +6,4 @@
 * [MySQL](https://github.com/pigPEQ/Awesome-python/tree/main/Note/mysql%E6%95%B0%E6%8D%AE%E5%BA%93)
 * [redis](https://github.com/pigPEQ/Awesome-python/blob/main/Note/redis)
 * [Django](https://github.com/pigPEQ/Awesome-python/tree/main/Note/Django)
-* [Git](https://github.com/pigPEQ/Awesome-python/blob/main/Note/git/git)
 
