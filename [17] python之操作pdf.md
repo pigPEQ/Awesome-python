@@ -1,4 +1,4 @@
 ### 思维导图
 
-![](/Note/python基础/res/python之操作pdf.png)
+![](https://chenspace.oss-cn-shanghai.aliyuncs.com/py/python%E4%B9%8B%E6%93%8D%E4%BD%9Cpdf.png)
 

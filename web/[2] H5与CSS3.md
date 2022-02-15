@@ -1,4 +1,4 @@
 ### 思维导图
 
-![](/Note/web开发/res/CSS3.png)
+![](https://chenspace.oss-cn-shanghai.aliyuncs.com/web/CSS3.png)
 

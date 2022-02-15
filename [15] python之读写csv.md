@@ -1,4 +1,4 @@
 ### 思维导图
 
-![](/Note/python基础/res/python之读写CSV.png)
+![](https://chenspace.oss-cn-shanghai.aliyuncs.com/py/python%E4%B9%8B%E8%AF%BB%E5%86%99csv.png)
 

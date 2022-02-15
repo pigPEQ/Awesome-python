@@ -4,7 +4,7 @@
 
 
 
-![](/Note/python基础/res/python之网络编程.png)
+![](https://chenspace.oss-cn-shanghai.aliyuncs.com/py/python%E4%B9%8B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.png)
 
 </details>
 

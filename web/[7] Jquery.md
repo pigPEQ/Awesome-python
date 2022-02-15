@@ -1,4 +1,4 @@
 ### 思维导图
 
-![](/Note/web开发/res/Jquery.png)
+![](https://chenspace.oss-cn-shanghai.aliyuncs.com/web/Jquery.png)
 
